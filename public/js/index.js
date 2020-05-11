@@ -112,3 +112,78 @@ $(window).scroll(function(){
  })
 
 })
+
+
+// Add animations with waypoints and animate.css
+
+$(function(){
+  // intro
+  $('.mp1').waypoint(function() {
+		$('.mp1').addClass('animated fadeInLeft');
+	}, {
+		offset: '75%'
+  });
+
+  $('.mp2').waypoint(function() {
+		$('.mp2').addClass('animated fadeInRight');
+	}, {
+		offset: '75%'
+  });
+
+
+  // popup button
+  $('.button-pop').waypoint(function() {
+		$('.button-pop').addClass('animated bounce');
+	}, {
+		offset: '65%'
+  });
+
+
+  // about
+  $('.mp3').waypoint(function() {
+		$('.mp3').addClass('animated fadeInUp');
+	}, {
+		offset: '95%'
+  });
+  
+
+  //do's
+  $('.mp4').waypoint(function() {
+    $('.mp4').addClass('animated fadeInUp');
+    $('.mp4-1').addClass('animated fadeInUp');
+    $('.mp4-2').addClass('animated fadeInUp');
+    $('.mp4-3').addClass('animated fadeInUp');
+	}, {
+		offset: '85%'
+  });
+
+  // technologies
+  $('.mp5').waypoint(function() {
+		$('.mp5').addClass('animated zoomInRight');
+	}, {
+		offset: '85%'
+  });
+
+  // projects
+  $('.mp6').waypoint(function() {
+    $('.mp6').addClass('animated fadeInUp');
+    $('.mp6-1').addClass('animated fadeInUp');
+    $('.mp6-2').addClass('animated fadeInUp');
+    $('.mp6-3').addClass('animated fadeInUp');
+    $('.mp6-4').addClass('animated fadeInUp');
+    $('.mp6-5').addClass('animated fadeInUp');
+    $('.mp6-6').addClass('animated fadeInUp');
+	}, {
+		offset: '85%'
+  });
+
+
+  //contact
+  $('.mp7').waypoint(function() {
+		$('.mp7').addClass('animated zoomInUp');
+	}, {
+		offset: '85%'
+  });
+
+
+})

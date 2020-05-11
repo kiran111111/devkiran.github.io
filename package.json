@@ -4,7 +4,7 @@
   "description": "It is my portfolio website for displaying my projects.",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start":"nodemon index.js"
   },
   "repository": {
     "type": "git",
