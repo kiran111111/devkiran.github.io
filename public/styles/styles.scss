@@ -431,8 +431,8 @@ body{
       background-color:var(--background-light-color) ;
        .intro__image--innerImage{
         img{
-         width:80%;
-         height:95%;
+         width:90%;
+         height:310px;
          border-radius:50%;
          margin:2rem 0;
         }
@@ -458,13 +458,15 @@ body{
       .intro__image--inner{
         margin:-3rem auto;
         border-radius:50%;
-        width:60%;
-        height:40%;
+        width:50%;
+        height:30%;
         background-color:var(--background-light-color);
         .intro__image--innerImage{
          img{
+          width:90%;
+          height:310px;
           border-radius:50%;
-          margin:2.5rem 0;
+          margin:1rem 0;
          }
         }
       }
@@ -543,10 +545,10 @@ body{
        background-color:var(--background-light-color);
         .intro__image--innerImage{
          img{
-          width:80%;
-          height:80%;
+          width:90%;
+          height:250px;
           border-radius:50%;
-          margin:1.7rem 0;
+          margin:1rem 0;
          }
         }
       }
