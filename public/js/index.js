@@ -23,8 +23,8 @@ $(document).ready(function(){
  $(window).scroll(function() { // check if scroll event happened
    if ($(document).scrollTop() > 10) { // check if user scrolled more than 50 from top of the browser window
     // $(".portfolio__navbar--scroll ").css('color','pink');
-    $(".portfolio__header").css('box-shadow', '0px 0px 10px black');
-    $(".portfolio__header").css('background-color', '#1F2235 ');// if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+    $(".portfolio__header").css('box-shadow', '0px 0px 10px lightgrey');
+    $(".portfolio__header").css('background-color', 'white ');// if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
    } else {
     $(".portfolio__header").css('box-shadow', '0px 0px 10px transparent');
      $('.portfolio__header').css('background-color', 'transparent'); // if not, change it back to transparent
@@ -32,6 +32,7 @@ $(document).ready(function(){
  });
 });
 
+// #1F2235
 
 // ?---------------------------------------------------------------------------------------------------------
 
@@ -104,10 +105,10 @@ $(window).scroll(function(){
   // set/remove active class;
  menuItems.map(function(item,elem){
    if(elem.hash === "#"+id){
-     $(elem).css('color','#FF4A57')
+     $(elem).css('color','#29AAFF')
    }
    else{
-     $(elem).css('color','white')
+     $(elem).css('color','black')
    }
  })
 
@@ -154,14 +155,14 @@ $(function(){
     $('.mp4-2').addClass('animated fadeInUp');
     $('.mp4-3').addClass('animated fadeInUp');
 	}, {
-		offset: '85%'
+		offset: '65%'
   });
 
   // technologies
   $('.mp5').waypoint(function() {
 		$('.mp5').addClass('animated zoomInRight');
 	}, {
-		offset: '85%'
+		offset: '75%'
   });
 
   // projects
@@ -174,7 +175,7 @@ $(function(){
     $('.mp6-5').addClass('animated fadeInUp');
     $('.mp6-6').addClass('animated fadeInUp');
 	}, {
-		offset: '85%'
+		offset: '75%'
   });
 
 
